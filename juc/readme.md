@@ -64,7 +64,7 @@ ABA问题，可以使用带版本的原子类，如`AtomicStampedReference`
 
 对象头的MarkWord:
 
-<img src="/Users/jinhsu/Github/sharit-projects/sharit-blog/docs/.images/jvm-010.png" style="zoom:50%;" />
+<img src="../.images/jvm-010.png" style="zoom:50%;" />
 
 `new`-->`无锁`-->`偏向锁`-->`轻量级`-->`重量级`
 
@@ -121,7 +121,7 @@ Java虚拟机在JIT编译时(可以简单理解为当某段代码即将第一次
 
 ## 线程的状态
 
-<img src="/Users/jinhsu/Github/sharit-projects/sharit-blog/docs/.images/juc-001.png" alt="juc-001" style="zoom:50%;" />
+<img src="../.images/juc-001.png" alt="juc-001" style="zoom:50%;" />
 
 sleep、wait、yield、join方法的区别及应用场景
 
@@ -407,7 +407,7 @@ public static ScheduledExecutorService newScheduledThreadPool(int corePoolSize) 
 
 
 
-## Threadlocal
+## ThreadLocal
 
 
 
